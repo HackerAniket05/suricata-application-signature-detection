@@ -1,0 +1,1 @@
+alert tls any any -> any any (msg:"LOCAL AnyDesk JA3 fingerprint detected"; ja3.hash; content:"29b5a018fa5992fe23560c16af0dc9fc"; sid:1000001; rev:2;)
